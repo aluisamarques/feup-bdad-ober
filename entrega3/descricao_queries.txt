@@ -4,3 +4,5 @@
 4 - lista os condutores e indica se consegue ou não desempenhar cada tipo de serviço
 5 - nomeia por método de pagamento qual é o valor total transferido, o numero de serviços que usaram esse método e qual é a média de valor gasto por viagem 
 6 - Horário e Moradas onde iniciaram ou finalizaram viagens num certo dia
+7 - rating, nome dos clientes e nome dos drivers que participaram em serviços com avaliação menor do que 3
+8- nome email e numero de clientes que são simultaneamente drivers
