@@ -1,1 +1,1 @@
-INSERT INTO ober_service(service_id, initial_time, final_time, initial_location_id, final_location_id, driver_id, client_id) VALUES (13, strftime('%s','2001-01-01 01:01:01', 'utc' ),strftime('%s','2001-01-01 01:13:01', 'utc'),1,2,1,4);
+INSERT INTO ober_service(service_id, initial_time, final_time, initial_location_id, final_location_id, driver_id, client_id) VALUES (13, '2001-01-01 01:01:01','2001-01-01 01:13:01',1,2,8,10);

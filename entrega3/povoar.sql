@@ -27,7 +27,7 @@ INSERT INTO client(client_id, email, name,  nif, phone_num, credit_card_num) VAL
 INSERT INTO client(client_id, email, name,  nif, phone_num, credit_card_num) VALUES (7,'ananas@gmail.com','Ana Nazaré', 372046482, 983418747,132916344692);
 INSERT INTO client(client_id, email, name,  nif, phone_num, credit_card_num) VALUES (8,'johnny@gmail.com','João Inglês', 372123482, 981234747,112316344692);
 INSERT INTO client(client_id, email, name,  nif, phone_num, credit_card_num) VALUES (9,'maria@gmail.com','Maria Mendes', 392923482, 91939747,112336344692); 
-INSERT INTO client(driver_id, email, name, nif, phone_num, credit_card_num )VALUES (10,'eunice@fe.up.pt','Eunice Amora', 253123753 , 912344752, 838381234159);
+INSERT INTO client(client_id, email, name, nif, phone_num, credit_card_num )VALUES (10,'eunice@fe.up.pt','Eunice Amora', 253123753 , 912344752, 838381234159);
 
 
 --driver
@@ -52,16 +52,16 @@ INSERT INTO car(license_plate, model, capacity, is_reduced_mobility, is_electric
 
 --ober_service
 INSERT INTO ober_service(service_id, initial_time, final_time, initial_location_id, final_location_id, driver_id, client_id) VALUES (1, '2001-01-01 01:01:01', '2001-01-01 01:13:01',1,2,1,1);
-INSERT INTO ober_service(service_id, initial_time, final_time, initial_location_id, final_location_id, driver_id, client_id) VALUES (2, '2020-03-26 13:30:20', '2020-03-26 03:31:28',3,4,2,2);
+INSERT INTO ober_service(service_id, initial_time, final_time, initial_location_id, final_location_id, driver_id, client_id) VALUES (2, '2020-03-26 13:30:20', '2020-03-26 13:31:28',3,4,2,2);
 INSERT INTO ober_service(service_id, initial_time, final_time, initial_location_id, final_location_id, driver_id, client_id) VALUES (3, '2020-04-20 16:20:13', '2020-04-20 16:41:21',5,6,1,3);
-INSERT INTO ober_service(service_id, initial_time, final_time, initial_location_id, final_location_id, driver_id, client_id) VALUES (4, '2020-04-21 23:20:14', '2020-04-22 23:21:56',7,8,3,4);
-INSERT INTO ober_service(service_id, initial_time, final_time, initial_location_id, final_location_id, driver_id, client_id) VALUES (5, '2020-06-30 23:10:11', '2020-04-22 00:40:17',1,4,4,5);
+INSERT INTO ober_service(service_id, initial_time, final_time, initial_location_id, final_location_id, driver_id, client_id) VALUES (4, '2020-04-21 23:20:14', '2020-04-21 23:21:56',7,8,3,4);
+INSERT INTO ober_service(service_id, initial_time, final_time, initial_location_id, final_location_id, driver_id, client_id) VALUES (5, '2020-06-30 23:10:11', '2020-06-31 00:40:17',1,4,4,5);
 INSERT INTO ober_service(service_id, initial_time, final_time, initial_location_id, final_location_id, driver_id, client_id) VALUES (6, '2020-07-01 10:00:01', '2020-07-01 10:10:17',1,2,1,1);
 INSERT INTO ober_service(service_id, initial_time, final_time, initial_location_id, final_location_id, driver_id, client_id) VALUES (7, '2020-04-04 19:32:01', '2020-04-04 19:42:42',8,9,5,6);
-INSERT INTO ober_service(service_id, initial_time, final_time, initial_location_id, final_location_id, driver_id, client_id) VALUES (8, '2020-04-04 00:32:56', '2012-04-06 00:37:00',10,11,6,2);
-INSERT INTO ober_service(service_id, initial_time, final_time, initial_location_id, final_location_id, driver_id, client_id) VALUES (9, '2020-07-03 06:06:56', '2012-07-03 06:40:00',12,13,7,7);
-INSERT INTO ober_service(service_id, initial_time, final_time, initial_location_id, final_location_id, driver_id, client_id) VALUES (10, '2020-07-04 01:06:56', '2012-07-04 01:40:00',13,14,8,8);
-INSERT INTO ober_service(service_id, initial_time, final_time, initial_location_id, final_location_id, driver_id, client_id) VALUES (11, '2020-07-04 01:06:56', '2012-07-04 01:40:00',13,14,3,8);
+INSERT INTO ober_service(service_id, initial_time, final_time, initial_location_id, final_location_id, driver_id, client_id) VALUES (8, '2020-04-04 00:32:56', '2020-04-04 00:37:00',10,11,6,2);
+INSERT INTO ober_service(service_id, initial_time, final_time, initial_location_id, final_location_id, driver_id, client_id) VALUES (9, '2020-07-03 06:06:56', '2020-07-03 06:40:00',12,13,7,7);
+INSERT INTO ober_service(service_id, initial_time, final_time, initial_location_id, final_location_id, driver_id, client_id) VALUES (10, '2020-07-04 01:06:56', '2020-07-04 01:40:00',13,14,8,8);
+INSERT INTO ober_service(service_id, initial_time, final_time, initial_location_id, final_location_id, driver_id, client_id) VALUES (11, '2020-07-04 01:06:56', '2020-07-04 01:40:00',13,14,3,8);
 
 --ober_ride
 INSERT INTO ober_ride(ober_ride_id, service_id, license_plate, chosen_ride_type) VALUES (1, 1, '50-UM-CA', 'oberx');
