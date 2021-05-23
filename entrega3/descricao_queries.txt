@@ -1,6 +1,6 @@
-1 - Enumera  o id e nome dos clientes que nunca participaram num serviço 
+1 - Enumera  o id e nome dos utilizadores que nunca participaram num serviço 
 2 - lista quem foi o condutor, o cliente e quanto tempo demorou cada viagem
 3 - carros disponivéis para serviços de elétricos
 4 - lista os condutores e indica se consegue ou não desempenhar cada tipo de serviço
 5 - nomeia por método de pagamento qual é o valor total transferido, o numero de serviços que usaram esse método e qual é a média de valor gasto por viagem 
-6 - Moradas onde iniciaram ou finalizaram viagens num certo dia
+6 - Horário e Moradas onde iniciaram ou finalizaram viagens num certo dia

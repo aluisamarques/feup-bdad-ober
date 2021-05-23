@@ -2,7 +2,7 @@
 .headers	on
 .nullvalue	NULL
 
-SELECT driver_id as id, name, email, license_plate
+SELECT license_plate, name, email
 FROM Driver JOIN Car USING (driver_id)
 WHERE is_electric = 1 
-group by (driver_id);
+group by (license_plate);
